@@ -1,0 +1,16 @@
+Task 4: Mining Insights Summary
+===============================
+
+Top 5 Issues in English (by Actionability Score):
+- Cluster 4: Medical Data Security Breaches (Score: 574.0)
+- Cluster 3: Network Connectivity & Device Sync (Score: 486.0)
+- Cluster 6: Hospital Data Protection (Score: 402.0)
+- Cluster 13: Financial Data Discrepancies (Score: 381.0)
+- Cluster 0: Project Management Tool Integration (Score: 347.0)
+
+Top 5 Issues in German (by Actionability Score):
+- Cluster 5: Critical System Outages (Urgent) (Score: 545.0)
+- Cluster 0: Software Bug Reports (Score: 527.0)
+- Cluster 10: General Inquiry/Access Support (Score: 487.0)
+- Cluster 3: System Crashes (Data Platform) (Score: 468.0)
+- Cluster 11: Cybersecurity & Firewall (Score: 457.0)
