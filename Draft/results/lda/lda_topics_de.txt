@@ -1,0 +1,45 @@
+Topic: 0
+Words: 0.043*"beeinträchtigen" + 0.039*"ausfall" + 0.036*"erheblich" + 0.029*"kritisch" + 0.022*"dringend" + 0.016*"störung" + 0.016*"system" + 0.015*"derzeit" + 0.015*"sofortig" + 0.014*"beginnen"
+
+Topic: 1
+Words: 0.030*"optimierung" + 0.029*"freuen" + 0.027*"unterstützung" + 0.025*"verbesserung" + 0.022*"können" + 0.019*"verbessern" + 0.018*"werkzeug" + 0.016*"geben" + 0.016*"bitte" + 0.016*"kundenservice"
+
+Topic: 2
+Words: 0.037*"information" + 0.035*"können" + 0.031*"bitte" + 0.026*"integration" + 0.022*"freuen" + 0.017*"geehrt" + 0.014*"bereitstellen" + 0.014*"unterstützung" + 0.013*"detailliert" + 0.012*"detail"
+
+Topic: 3
+Words: 0.044*"verzögerung" + 0.029*"zeitweilig" + 0.021*"benachrichtigung" + 0.019*"studio" + 0.019*"akademisch" + 0.017*"inkonsistent" + 0.016*"feststellen" + 0.016*"obs" + 0.014*"muster" + 0.014*"unannehmlichkeit"
+
+Topic: 4
+Words: 0.066*"--" + 0.046*"for" + 0.035*"and" + 0.026*"your" + 0.024*"support" + 0.022*"would" + 0.021*"could" + 0.020*"provide" + 0.019*"with" + 0.016*"project"
+
+Topic: 5
+Words: 0.047*"neu" + 0.024*"benutzer" + 0.024*"gerät" + 0.017*"versuchen" + 0.016*"verschieden" + 0.012*"browser" + 0.011*"windows" + 0.011*"obwohl" + 0.011*"software" + 0.010*"versuch"
+
+Topic: 6
+Words: 0.022*"sap" + 0.022*"taskforge" + 0.019*"reported" + 0.018*"aws" + 0.017*"z.b." + 0.016*"finance" + 0.016*"veranstaltung" + 0.015*"cloud" + 0.014*"brandpulse" + 0.014*"home"
+
+Topic: 7
+Words: 0.042*"--" + 0.040*"the" + 0.038*"data" + 0.032*"and" + 0.028*"issue" + 0.020*"security" + 0.017*"have" + 0.016*"system" + 0.014*"due" + 0.013*"been"
+
+Topic: 8
+Words: 0.028*"dringend" + 0.025*"erheblich" + 0.024*"führen" + 0.019*"sofortig" + 0.019*"unterstützung" + 0.018*"unser" + 0.017*"kritisch" + 0.015*"verzögerung" + 0.014*"aufmerksamkeit" + 0.014*"geehrt"
+
+Topic: 9
+Words: 0.096*"digital" + 0.045*"strategie" + 0.021*"markenwachstum" + 0.019*"kampagne" + 0.014*"können" + 0.013*"information" + 0.013*"unterstützung" + 0.012*"verbessern" + 0.011*"fördern" + 0.010*"erreichen"
+
+Topic: 10
+Words: 0.026*"bestehen" + 0.024*"bitte" + 0.023*"neu" + 0.023*"unterstützung" + 0.021*"lösung" + 0.017*"lösen" + 0.017*"versuchen" + 0.017*"starten" + 0.016*"weiterhin" + 0.015*"melden"
+
+Topic: 11
+Words: 0.045*"anfrage" + 0.040*"bezüglich" + 0.033*"schreiben" + 0.029*"name" + 0.024*"support-team,\n\nich" + 0.021*"freundlich" + 0.021*"hallo" + 0.021*"können" + 0.020*"bitte" + 0.019*"unterstützung"
+
+Topic: 12
+Words: 0.039*"lösung" + 0.028*"melden" + 0.018*"geehrt" + 0.016*"innerhalb" + 0.016*"beheben" + 0.015*"name" + 0.015*"stunde" + 0.014*"neu" + 0.014*"support-team,\n\nich" + 0.014*"schreiben"
+
+Topic: 13
+Words: 0.050*"--" + 0.041*"the" + 0.033*"and" + 0.029*"with" + 0.022*"issue" + 0.019*"issues" + 0.017*"our" + 0.016*"have" + 0.014*"software" + 0.013*"digital"
+
+Topic: 14
+Words: 0.078*"medizinisch" + 0.069*"datum" + 0.019*"krankenhaus" + 0.017*"zugriff" + 0.017*"maßnahme" + 0.016*"sicherheit" + 0.016*"patientendat" + 0.013*"gewährleisten" + 0.013*"information" + 0.013*"sicherheitsmaßnahme"
+
