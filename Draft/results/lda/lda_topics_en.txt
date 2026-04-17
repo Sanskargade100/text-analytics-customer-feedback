@@ -20,10 +20,10 @@ Topic: 6
 Words: 0.030*"issue" + 0.026*"problem" + 0.026*"system" + 0.022*"resolve" + 0.021*"cause" + 0.020*"support" + 0.019*"update" + 0.018*"customer" + 0.016*"impact" + 0.015*"report"
 
 Topic: 7
-Words: 0.102*"integration" + 0.064*"api" + 0.050*"project" + 0.034*"synchronization" + 0.033*"issue" + 0.030*"sync" + 0.021*"problem" + 0.017*"datum" + 0.015*"quickbooks" + 0.014*"jira"
+Words: 0.102*"integration" + 0.065*"api" + 0.050*"project" + 0.033*"synchronization" + 0.032*"issue" + 0.030*"sync" + 0.021*"problem" + 0.016*"datum" + 0.015*"quickbooks" + 0.014*"jira"
 
 Topic: 8
-Words: 0.045*"problem" + 0.044*"restart" + 0.043*"data" + 0.042*"issue" + 0.029*"system" + 0.023*"update" + 0.020*"database" + 0.019*"configuration" + 0.017*"review" + 0.016*"log"
+Words: 0.044*"problem" + 0.044*"restart" + 0.043*"data" + 0.042*"issue" + 0.029*"system" + 0.023*"update" + 0.020*"database" + 0.018*"configuration" + 0.016*"review" + 0.016*"log"
 
 Topic: 9
 Words: 0.038*"management" + 0.037*"project" + 0.036*"integration" + 0.031*"saas" + 0.024*"information" + 0.024*"provide" + 0.023*"integrate" + 0.021*"support" + 0.018*"appreciate" + 0.017*"detail"
