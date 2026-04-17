@@ -1,0 +1,31 @@
+Task 4 (Axis 2 - LDA vs BERTopic): Advanced Mining Insights Summary
+=================================================================
+
+Top 5 Issues in EN using LDA:
+- Topic 2: issue, software, problem, update, resolve, persist, restart,... (Score: 638.0)
+- Topic 12: security, breach, medical, system, access, data, datum, upda... (Score: 599.0)
+- Topic 9: management, project, integration, saas, information, provide... (Score: 509.0)
+- Topic 5: medical, security, datum, information, data, secure, encrypt... (Score: 440.0)
+- Topic 11: issue, support, customer, provide, look, matter, information... (Score: 421.0)
+
+Top 5 Issues in DE using LDA:
+- Topic 12: lösung, melden, geehrt, innerhalb, beheben, name, stunde, ne... (Score: 885.0)
+- Topic 10: bestehen, bitte, neu, unterstützung, lösung, lösen, versuche... (Score: 872.0)
+- Topic 14: medizinisch, datum, krankenhaus, zugriff, maßnahme, sicherhe... (Score: 514.0)
+- Topic 11: anfrage, bezüglich, schreiben, name, support-team,\n\nich, f... (Score: 466.0)
+- Topic 2: information, können, bitte, integration, freuen, geehrt, ber... (Score: 408.0)
+
+Top 5 Issues in EN using BERTOPIC:
+- Topic 0: ['security', 'medical', 'data', 'to', 'the', 'access', 'and'... (Score: 1140.0)
+- Topic 1: ['investment', 'analytics', 'data', 'the', 'to', 'and', 'too... (Score: 765.0)
+- Topic 2: ['digital', 'brand', 'marketing', 'strategies', 'growth', 't... (Score: 630.0)
+- Topic 3: ['project', 'management', 'integration', 'for', 'saas', 'and... (Score: 325.0)
+- Topic 4: ['the', 'saas', 'issue', 'to', 'server', 'and', 'project', '... (Score: 316.0)
+
+Top 5 Issues in DE using BERTOPIC:
+- Topic 0: ['problem', 'der', 'zu', 'das', 'die', 'und', 'ich', 'mit', ... (Score: 1356.0)
+- Topic 1: ['daten', 'und', 'die', 'zu', 'medizinischer', 'medizinische... (Score: 805.0)
+- Topic 2: ['und', 'ich', 'zu', 'integration', 'die', 'fr', 'mich', 'si... (Score: 614.0)
+- Topic 3: ['die', 'digitalen', 'zu', 'und', 'strategien', 'digitale', ... (Score: 554.0)
+- Topic 4: ['fr', 'anfrage', 'bezglich', 'die', 'ihnen', 'der', 'sie', ... (Score: 217.0)
+

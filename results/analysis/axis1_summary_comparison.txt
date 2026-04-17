@@ -1,0 +1,31 @@
+Task 4 (Axis 1 - TF-IDF vs Emb): Mining Insights Summary
+======================================================
+
+Top 5 Issues in EN using K-Means (TFIDF) (by Actionability Score):
+- Cluster 7: problem, issue, resolve, restart, server, update, recent, de... (Score: 702.0)
+- Cluster 6: security, breach, access, medical, unauthorized, incident, o... (Score: 485.0)
+- Cluster 1: medical, security, datum, secure, information, sensitive, ho... (Score: 381.0)
+- Cluster 12: investment, data, issue, financial, analytic, software, opti... (Score: 356.0)
+- Cluster 0: integration, request, integrate, support, customer, provide,... (Score: 348.0)
+
+Top 5 Issues in DE using K-Means (TFIDF) (by Actionability Score):
+- Cluster 8: problem, digital, kampagne, mehrere, unterstützung, bitte, u... (Score: 572.0)
+- Cluster 2: the, and, issue, with, data, have, issues, due, been, but... (Score: 503.0)
+- Cluster 4: anfrage, bezüglich, nich, support, team, hallo, schreiben, n... (Score: 482.0)
+- Cluster 0: problem, lösung, verzögerung, team, support, innerhalb, temp... (Score: 459.0)
+- Cluster 14: dringend, sofortig, kritisch, ausfall, erheblich, nwir, supp... (Score: 430.0)
+
+Top 5 Issues in EN using K-Means (EMB) (by Actionability Score):
+- Cluster 0: security, breach, access, medical, unauthorized, incident, d... (Score: 573.0)
+- Cluster 4: medical, security, datum, secure, information, hospital, sen... (Score: 398.0)
+- Cluster 7: problem, issue, restart, resolve, connectivity, update, devi... (Score: 391.0)
+- Cluster 14: investment, data, issue, analytic, problem, optimization, so... (Score: 391.0)
+- Cluster 2: investment, analytic, data, tool, decision, optimize, analyt... (Score: 338.0)
+
+Top 5 Issues in DE using K-Means (EMB) (by Actionability Score):
+- Cluster 2: problem, kritisch, dringend, ausfall, sofortig, support, erh... (Score: 564.0)
+- Cluster 5: problem, nich, neu, support, melden, lösung, versuchen, fehl... (Score: 486.0)
+- Cluster 12: anfrage, bezüglich, nich, schreiben, support, team, name, ha... (Score: 465.0)
+- Cluster 7: medizinisch, system, datum, it, software, krankenhaus, veral... (Score: 447.0)
+- Cluster 8: problem, the, issue, and, software, with, system, neu, serve... (Score: 428.0)
+
