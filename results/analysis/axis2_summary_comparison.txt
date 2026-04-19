@@ -9,11 +9,11 @@ Top 5 Issues in EN using LDA:
 - Topic 11: issue, support, customer, provide, look, matter, information... (Score: 421.0)
 
 Top 5 Issues in DE using LDA:
-- Topic 12: lösung, melden, geehrt, innerhalb, beheben, name, stunde, ne... (Score: 885.0)
-- Topic 10: bestehen, bitte, neu, unterstützung, lösung, lösen, versuche... (Score: 872.0)
-- Topic 14: medizinisch, datum, krankenhaus, zugriff, maßnahme, sicherhe... (Score: 514.0)
-- Topic 11: anfrage, bezüglich, schreiben, name, support-team,\n\nich, f... (Score: 466.0)
-- Topic 2: information, können, bitte, integration, freuen, geehrt, ber... (Score: 408.0)
+- Topic 4: problem, neu, bitte, unterstützung, lösung, bestehen, starte... (Score: 1460.0)
+- Topic 14: --, the, issue, and, with, issues, problem, have, due, but... (Score: 759.0)
+- Topic 0: freuen, können, information, integration, unterstützung, bit... (Score: 660.0)
+- Topic 9: medizinisch, datum, patientendat, sicherheit, sicherheitsmaß... (Score: 487.0)
+- Topic 13: veraltet, problem, feststellen, bestehen, möglich, software,... (Score: 371.0)
 
 Top 5 Issues in EN using BERTOPIC:
 - Topic 0: ['security', 'medical', 'data', 'to', 'the', 'access', 'and'... (Score: 1140.0)
@@ -23,9 +23,9 @@ Top 5 Issues in EN using BERTOPIC:
 - Topic 4: ['the', 'saas', 'issue', 'to', 'server', 'and', 'project', '... (Score: 316.0)
 
 Top 5 Issues in DE using BERTOPIC:
-- Topic 0: ['problem', 'der', 'zu', 'das', 'die', 'und', 'ich', 'mit', ... (Score: 1356.0)
-- Topic 1: ['daten', 'und', 'die', 'zu', 'medizinischer', 'medizinische... (Score: 805.0)
-- Topic 2: ['und', 'ich', 'zu', 'integration', 'die', 'fr', 'mich', 'si... (Score: 614.0)
-- Topic 3: ['die', 'digitalen', 'zu', 'und', 'strategien', 'digitale', ... (Score: 554.0)
-- Topic 4: ['fr', 'anfrage', 'bezglich', 'die', 'ihnen', 'der', 'sie', ... (Score: 217.0)
+- Topic 0: ['the', 'problem', 'das', 'die', 'der', 'to', 'und', 'zu', '... (Score: 1443.0)
+- Topic 1: ['daten', 'die', 'und', 'zu', 'der', 'um', 'medizinischer', ... (Score: 1230.0)
+- Topic 2: ['zu', 'die', 'und', 'digitalen', 'der', 'um', 'ich', 'strat... (Score: 974.0)
+- Topic 3: ['ich', 'zu', 'von', 'optimierung', 'und', 'fr', 'die', 'sie... (Score: 314.0)
+- Topic 4: ['integration', 'fr', 'ich', 'und', 'die', 'zu', 'sie', 'saa... (Score: 263.0)
 

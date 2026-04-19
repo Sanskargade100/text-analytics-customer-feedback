@@ -1,45 +1,45 @@
 Topic: 0
-Words: 0.043*"beeinträchtigen" + 0.039*"ausfall" + 0.036*"erheblich" + 0.029*"kritisch" + 0.022*"dringend" + 0.016*"störung" + 0.016*"system" + 0.015*"derzeit" + 0.015*"sofortig" + 0.014*"beginnen"
+Words: 0.033*"freuen" + 0.031*"können" + 0.028*"information" + 0.026*"integration" + 0.026*"unterstützung" + 0.026*"bitte" + 0.020*"geehrt" + 0.013*"detailliert" + 0.012*"rückmeldung" + 0.012*"erhalten"
 
 Topic: 1
-Words: 0.030*"optimierung" + 0.029*"freuen" + 0.027*"unterstützung" + 0.025*"verbesserung" + 0.022*"können" + 0.019*"verbessern" + 0.018*"werkzeug" + 0.016*"geben" + 0.016*"bitte" + 0.016*"kundenservice"
+Words: 0.037*"langsam" + 0.035*"dashboard" + 0.026*"pro" + 0.016*"macbook" + 0.016*"projekt-dashboard" + 0.016*"benutzer" + 0.015*"hoch" + 0.015*"datenverschlüsselung" + 0.014*"erhöht" + 0.014*"postgresql"
 
 Topic: 2
-Words: 0.037*"information" + 0.035*"können" + 0.031*"bitte" + 0.026*"integration" + 0.022*"freuen" + 0.017*"geehrt" + 0.014*"bereitstellen" + 0.014*"unterstützung" + 0.013*"detailliert" + 0.012*"detail"
+Words: 0.062*"data" + 0.041*"--" + 0.038*"investment" + 0.038*"and" + 0.032*"analysis" + 0.030*"for" + 0.026*"your" + 0.018*"support" + 0.017*"you" + 0.017*"optimization"
 
 Topic: 3
-Words: 0.044*"verzögerung" + 0.029*"zeitweilig" + 0.021*"benachrichtigung" + 0.019*"studio" + 0.019*"akademisch" + 0.017*"inkonsistent" + 0.016*"feststellen" + 0.016*"obs" + 0.014*"muster" + 0.014*"unannehmlichkeit"
+Words: 0.043*"google" + 0.036*"integration" + 0.026*"zoho" + 0.023*"firebase" + 0.018*"crm" + 0.017*"ubuntu" + 0.016*"aws" + 0.016*"outage" + 0.016*"platform" + 0.015*"redis"
 
 Topic: 4
-Words: 0.066*"--" + 0.046*"for" + 0.035*"and" + 0.026*"your" + 0.024*"support" + 0.022*"would" + 0.021*"could" + 0.020*"provide" + 0.019*"with" + 0.016*"project"
+Words: 0.086*"problem" + 0.024*"neu" + 0.020*"bitte" + 0.020*"unterstützung" + 0.019*"lösung" + 0.019*"bestehen" + 0.015*"starten" + 0.014*"versuchen" + 0.013*"benötigen" + 0.013*"können"
 
 Topic: 5
-Words: 0.047*"neu" + 0.024*"benutzer" + 0.024*"gerät" + 0.017*"versuchen" + 0.016*"verschieden" + 0.012*"browser" + 0.011*"windows" + 0.011*"obwohl" + 0.011*"software" + 0.010*"versuch"
+Words: 0.042*"adobe" + 0.039*"elasticsearch" + 0.036*"quickbooks" + 0.035*"cloud" + 0.024*"jira" + 0.022*"cassandra" + 0.020*"accessing" + 0.019*"online" + 0.017*"crm" + 0.016*"effects"
 
 Topic: 6
-Words: 0.022*"sap" + 0.022*"taskforge" + 0.019*"reported" + 0.018*"aws" + 0.017*"z.b." + 0.016*"finance" + 0.016*"veranstaltung" + 0.015*"cloud" + 0.014*"brandpulse" + 0.014*"home"
+Words: 0.103*"digital" + 0.048*"kampagne" + 0.024*"verbessern" + 0.023*"verbesserung" + 0.023*"ergebnis" + 0.022*"leistung" + 0.017*"unterstützung" + 0.016*"strategie" + 0.012*"angepasst" + 0.012*"erzielen"
 
 Topic: 7
-Words: 0.042*"--" + 0.040*"the" + 0.038*"data" + 0.032*"and" + 0.028*"issue" + 0.020*"security" + 0.017*"have" + 0.016*"system" + 0.014*"due" + 0.013*"been"
+Words: 0.064*"--" + 0.043*"for" + 0.034*"and" + 0.021*"could" + 0.019*"provide" + 0.019*"would" + 0.018*"support" + 0.017*"with" + 0.015*"your" + 0.014*"digital"
 
 Topic: 8
-Words: 0.028*"dringend" + 0.025*"erheblich" + 0.024*"führen" + 0.019*"sofortig" + 0.019*"unterstützung" + 0.018*"unser" + 0.017*"kritisch" + 0.015*"verzögerung" + 0.014*"aufmerksamkeit" + 0.014*"geehrt"
+Words: 0.050*"digital" + 0.040*"strategie" + 0.026*"können" + 0.025*"freuen" + 0.025*"geben" + 0.023*"information" + 0.021*"bitte" + 0.019*"dienstleistung" + 0.017*"erfahren" + 0.017*"markenwachstum"
 
 Topic: 9
-Words: 0.096*"digital" + 0.045*"strategie" + 0.021*"markenwachstum" + 0.019*"kampagne" + 0.014*"können" + 0.013*"information" + 0.013*"unterstützung" + 0.012*"verbessern" + 0.011*"fördern" + 0.010*"erreichen"
+Words: 0.095*"medizinisch" + 0.085*"datum" + 0.021*"patientendat" + 0.020*"sicherheit" + 0.018*"sicherheitsmaßnahme" + 0.018*"information" + 0.017*"krankenhaus" + 0.016*"sicherung" + 0.014*"gewährleisten" + 0.013*"bitte"
 
 Topic: 10
-Words: 0.026*"bestehen" + 0.024*"bitte" + 0.023*"neu" + 0.023*"unterstützung" + 0.021*"lösung" + 0.017*"lösen" + 0.017*"versuchen" + 0.017*"starten" + 0.016*"weiterhin" + 0.015*"melden"
+Words: 0.072*"data" + 0.060*"security" + 0.039*"medical" + 0.029*"access" + 0.027*"been" + 0.020*"and" + 0.018*"systems" + 0.016*"system" + 0.016*"--" + 0.016*"hospital"
 
 Topic: 11
-Words: 0.045*"anfrage" + 0.040*"bezüglich" + 0.033*"schreiben" + 0.029*"name" + 0.024*"support-team,\n\nich" + 0.021*"freundlich" + 0.021*"hallo" + 0.021*"können" + 0.020*"bitte" + 0.019*"unterstützung"
+Words: 0.032*"rabatt" + 0.031*"bereitstellen" + 0.028*"smart" + 0.028*"verfügbar" + 0.027*"airtable" + 0.027*"zahlungsmethod" + 0.023*"erfahren" + 0.022*"information" + 0.021*"verschieden" + 0.019*"preis"
 
 Topic: 12
-Words: 0.039*"lösung" + 0.028*"melden" + 0.018*"geehrt" + 0.016*"innerhalb" + 0.016*"beheben" + 0.015*"name" + 0.015*"stunde" + 0.014*"neu" + 0.014*"support-team,\n\nich" + 0.014*"schreiben"
+Words: 0.064*"optimierung" + 0.039*"verbesserung" + 0.037*"datenanalyse" + 0.035*"investition" + 0.024*"treffen" + 0.021*"entscheidung" + 0.020*"verbessern" + 0.018*"optimieren" + 0.017*"sap" + 0.016*"investitionsentscheidung"
 
 Topic: 13
-Words: 0.050*"--" + 0.041*"the" + 0.033*"and" + 0.029*"with" + 0.022*"issue" + 0.019*"issues" + 0.017*"our" + 0.016*"have" + 0.014*"software" + 0.013*"digital"
+Words: 0.026*"veraltet" + 0.026*"problem" + 0.023*"feststellen" + 0.018*"bestehen" + 0.017*"möglich" + 0.017*"software" + 0.016*"durchführen" + 0.015*"möglicherweise" + 0.015*"system" + 0.014*"zukünftig"
 
 Topic: 14
-Words: 0.078*"medizinisch" + 0.069*"datum" + 0.019*"krankenhaus" + 0.017*"zugriff" + 0.017*"maßnahme" + 0.016*"sicherheit" + 0.016*"patientendat" + 0.013*"gewährleisten" + 0.013*"information" + 0.013*"sicherheitsmaßnahme"
+Words: 0.059*"--" + 0.045*"the" + 0.035*"issue" + 0.031*"and" + 0.029*"with" + 0.021*"issues" + 0.020*"problem" + 0.020*"have" + 0.014*"due" + 0.013*"but"
 

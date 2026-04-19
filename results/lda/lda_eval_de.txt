@@ -1,2 +1,2 @@
 Language: de
-Coherence Score (c_v): 0.7557054496184514
+Coherence Score (c_v): 0.7212406633571753

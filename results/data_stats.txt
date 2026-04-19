@@ -60,8 +60,8 @@ Billing and Payments     493
 
 Top Queues (DE):
 queue
-Technical Support       899
-Product Support         549
-Customer Service        503
-IT Support              357
-Billing and Payments    275
+Technical Support       1483
+Product Support          889
+Customer Service         783
+IT Support               575
+Billing and Payments     467
