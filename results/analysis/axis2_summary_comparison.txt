@@ -16,16 +16,16 @@ Top 5 Issues in DE using LDA:
 - Topic 13: veraltet, problem, feststellen, bestehen, möglich, software,... (Score: 371.0)
 
 Top 5 Issues in EN using BERTOPIC:
-- Topic 0: ['security', 'medical', 'data', 'to', 'the', 'access', 'and'... (Score: 1140.0)
-- Topic 1: ['investment', 'analytics', 'data', 'the', 'to', 'and', 'too... (Score: 765.0)
-- Topic 2: ['digital', 'brand', 'marketing', 'strategies', 'growth', 't... (Score: 630.0)
-- Topic 3: ['project', 'management', 'integration', 'for', 'saas', 'and... (Score: 325.0)
-- Topic 4: ['the', 'saas', 'issue', 'to', 'server', 'and', 'project', '... (Score: 316.0)
+- Topic 0: ['medical', 'security', 'data', 'access', 'breach', 'systems... (Score: 1140.0)
+- Topic 1: ['investment', 'analytics', 'data', 'tools', 'optimization',... (Score: 765.0)
+- Topic 2: ['digital', 'brand', 'marketing', 'strategies', 'growth', 'e... (Score: 630.0)
+- Topic 3: ['management', 'project', 'integration', 'saas', 'integratin... (Score: 325.0)
+- Topic 4: ['saas', 'server', 'issue', 'project', 'platform', 'performa... (Score: 316.0)
 
 Top 5 Issues in DE using BERTOPIC:
-- Topic 0: ['the', 'problem', 'das', 'die', 'der', 'to', 'und', 'zu', '... (Score: 1443.0)
-- Topic 1: ['daten', 'die', 'und', 'zu', 'der', 'um', 'medizinischer', ... (Score: 1230.0)
-- Topic 2: ['zu', 'die', 'und', 'digitalen', 'der', 'um', 'ich', 'strat... (Score: 974.0)
-- Topic 3: ['ich', 'zu', 'von', 'optimierung', 'und', 'fr', 'die', 'sie... (Score: 314.0)
-- Topic 4: ['integration', 'fr', 'ich', 'und', 'die', 'zu', 'sie', 'saa... (Score: 263.0)
+- Topic 0: ['the', 'problem', 'to', 'issue', 'and', 'with', 'neu', 'dat... (Score: 1443.0)
+- Topic 1: ['daten', 'medizinische', 'fr', 'security', 'patientendaten'... (Score: 1230.0)
+- Topic 2: ['digitalen', 'strategien', 'digitale', 'digital', 'marketin... (Score: 974.0)
+- Topic 3: ['optimierung', 'fr', 'data', 'datenanalyse', 'investment', ... (Score: 314.0)
+- Topic 4: ['integration', 'fr', 'saas', 'for', 'management', 'project'... (Score: 263.0)
 
