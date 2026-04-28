@@ -2,30 +2,30 @@ Task 4 (Axis 1 - TF-IDF vs Emb): Mining Insights Summary
 ======================================================
 
 Top 5 Issues in EN using K-Means (TFIDF) (by Actionability Score):
-- Cluster 7: problem, issue, resolve, restart, server, update, recent, de... (Score: 702.0)
-- Cluster 6: security, breach, access, medical, unauthorized, incident, o... (Score: 485.0)
-- Cluster 1: medical, security, datum, secure, information, sensitive, ho... (Score: 381.0)
-- Cluster 12: investment, data, issue, financial, analytic, software, opti... (Score: 356.0)
-- Cluster 0: integration, request, integrate, support, customer, provide,... (Score: 348.0)
+- Cluster 7: problem, issue, resolve, restart, server, update, recent, de... (Score: 1601.7)
+- Cluster 6: security, breach, access, medical, unauthorized, incident, o... (Score: 1049.5)
+- Cluster 1: medical, security, datum, secure, information, sensitive, ho... (Score: 819.7)
+- Cluster 12: investment, data, issue, financial, analytic, software, opti... (Score: 773.2)
+- Cluster 0: integration, request, integrate, support, customer, provide,... (Score: 736.1)
 
 Top 5 Issues in DE using K-Means (TFIDF) (by Actionability Score):
-- Cluster 11: problem, neu, starten, überprüfen, bestehen, behalten, versu... (Score: 528.0)
-- Cluster 2: digital, verbessern, verbesserung, aktualisierung, kampagne,... (Score: 496.0)
-- Cluster 6: the, issue, and, have, with, but, data, your, please, for... (Score: 462.0)
-- Cluster 0: problem, mehrere, bestehen, weiterhin, beeinträchtigen, gerä... (Score: 379.0)
-- Cluster 4: integration, saas, projektmanagement, freuen, information, b... (Score: 357.0)
+- Cluster 11: problem, neu, starten, überprüfen, bestehen, behalten, versu... (Score: 1157.0)
+- Cluster 2: digital, verbessern, verbesserung, aktualisierung, kampagne,... (Score: 1051.5)
+- Cluster 6: the, issue, and, have, with, but, data, your, please, for... (Score: 1043.9)
+- Cluster 0: problem, mehrere, bestehen, weiterhin, beeinträchtigen, gerä... (Score: 885.2)
+- Cluster 1: it, krankenhaus, system, medizinisch, veraltet, feststellen,... (Score: 818.2)
 
 Top 5 Issues in EN using K-Means (EMB) (by Actionability Score):
-- Cluster 0: security, breach, access, medical, unauthorized, incident, d... (Score: 573.0)
-- Cluster 4: medical, security, datum, secure, information, hospital, sen... (Score: 398.0)
-- Cluster 7: problem, issue, restart, resolve, connectivity, update, devi... (Score: 391.0)
-- Cluster 14: investment, data, issue, analytic, problem, optimization, so... (Score: 391.0)
-- Cluster 2: investment, analytic, data, tool, decision, optimize, analyt... (Score: 338.0)
+- Cluster 0: security, breach, access, medical, unauthorized, incident, d... (Score: 1236.3)
+- Cluster 4: medical, security, datum, secure, information, hospital, sen... (Score: 852.0)
+- Cluster 14: investment, data, issue, analytic, problem, optimization, so... (Score: 838.7)
+- Cluster 7: problem, issue, restart, resolve, connectivity, update, devi... (Score: 836.4)
+- Cluster 2: investment, analytic, data, tool, decision, optimize, analyt... (Score: 709.3)
 
 Top 5 Issues in DE using K-Means (EMB) (by Actionability Score):
-- Cluster 3: medizinisch, datum, sicherung, it, information, sicherheitsm... (Score: 423.0)
-- Cluster 12: medizinisch, datum, zugriff, veraltet, firewall, problem, sy... (Score: 400.0)
-- Cluster 5: digital, strategie, markenwachstum, marketing, freuen, onlin... (Score: 395.0)
-- Cluster 1: datenanalyse, optimierung, tools, investition, investment, d... (Score: 380.0)
-- Cluster 4: investment, problem, data, the, issue, analysis, and, with, ... (Score: 359.0)
+- Cluster 12: medizinisch, datum, zugriff, veraltet, firewall, problem, sy... (Score: 925.3)
+- Cluster 3: medizinisch, datum, sicherung, it, information, sicherheitsm... (Score: 890.3)
+- Cluster 2: problem, software, neu, system, mehrere, beheben, lösung, up... (Score: 840.6)
+- Cluster 5: digital, strategie, markenwachstum, marketing, freuen, onlin... (Score: 830.5)
+- Cluster 13: problem, server, the, neu, starten, and, bestehen, bitte, is... (Score: 815.5)
 

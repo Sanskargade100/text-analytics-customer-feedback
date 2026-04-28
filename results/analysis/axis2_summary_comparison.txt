@@ -2,30 +2,30 @@ Task 4 (Axis 2 - LDA vs BERTopic): Advanced Mining Insights Summary
 =================================================================
 
 Top 5 Issues in EN using LDA:
-- Topic 2: issue, software, problem, update, resolve, persist, restart,... (Score: 638.0)
-- Topic 12: security, breach, medical, system, access, data, datum, upda... (Score: 599.0)
-- Topic 9: management, project, integration, saas, information, provide... (Score: 509.0)
-- Topic 5: medical, security, datum, information, data, secure, encrypt... (Score: 440.0)
-- Topic 11: issue, support, customer, provide, look, matter, information... (Score: 421.0)
+- Topic 2: issue, software, problem, update, resolve, persist, restart,... (Score: 1406.0)
+- Topic 12: security, breach, medical, system, access, data, datum, upda... (Score: 1302.0)
+- Topic 9: management, project, integration, saas, information, provide... (Score: 1053.0)
+- Topic 5: medical, security, datum, information, data, secure, encrypt... (Score: 943.0)
+- Topic 1: server, issue, problem, platform, project, cache, resolve, s... (Score: 937.0)
 
 Top 5 Issues in DE using LDA:
-- Topic 4: problem, neu, bitte, unterstützung, lösung, bestehen, starte... (Score: 1460.0)
-- Topic 14: --, the, issue, and, with, issues, problem, have, due, but... (Score: 759.0)
-- Topic 0: freuen, können, information, integration, unterstützung, bit... (Score: 660.0)
-- Topic 9: medizinisch, datum, patientendat, sicherheit, sicherheitsmaß... (Score: 487.0)
-- Topic 13: veraltet, problem, feststellen, bestehen, möglich, software,... (Score: 371.0)
+- Topic 4: problem, neu, bitte, unterstützung, lösung, bestehen, starte... (Score: 3253.0)
+- Topic 14: --, the, issue, and, with, issues, problem, have, due, but... (Score: 1695.0)
+- Topic 0: freuen, können, information, integration, unterstützung, bit... (Score: 1369.0)
+- Topic 9: medizinisch, datum, patientendat, sicherheit, sicherheitsmaß... (Score: 1050.0)
+- Topic 13: veraltet, problem, feststellen, bestehen, möglich, software,... (Score: 842.0)
 
 Top 5 Issues in EN using BERTOPIC:
-- Topic 0: ['medical', 'security', 'data', 'access', 'breach', 'systems... (Score: 1140.0)
-- Topic 1: ['investment', 'analytics', 'data', 'tools', 'optimization',... (Score: 765.0)
-- Topic 2: ['digital', 'brand', 'marketing', 'strategies', 'growth', 'e... (Score: 630.0)
-- Topic 3: ['management', 'project', 'integration', 'saas', 'integratin... (Score: 325.0)
-- Topic 4: ['saas', 'server', 'issue', 'project', 'platform', 'performa... (Score: 316.0)
+- Topic 0: ['medical', 'security', 'data', 'access', 'breach', 'systems... (Score: 2459.0)
+- Topic 1: ['investment', 'analytics', 'data', 'tools', 'optimization',... (Score: 1637.0)
+- Topic 2: ['digital', 'brand', 'marketing', 'strategies', 'growth', 'e... (Score: 1320.0)
+- Topic 4: ['saas', 'server', 'issue', 'project', 'platform', 'performa... (Score: 762.0)
+- Topic 3: ['management', 'project', 'integration', 'saas', 'integratin... (Score: 681.0)
 
 Top 5 Issues in DE using BERTOPIC:
-- Topic 0: ['the', 'problem', 'to', 'issue', 'and', 'with', 'neu', 'dat... (Score: 1443.0)
-- Topic 1: ['daten', 'medizinische', 'fr', 'security', 'patientendaten'... (Score: 1230.0)
-- Topic 2: ['digitalen', 'strategien', 'digitale', 'digital', 'marketin... (Score: 974.0)
-- Topic 3: ['optimierung', 'fr', 'data', 'datenanalyse', 'investment', ... (Score: 314.0)
-- Topic 4: ['integration', 'fr', 'saas', 'for', 'management', 'project'... (Score: 263.0)
+- Topic 0: ['the', 'problem', 'to', 'issue', 'and', 'with', 'neu', 'dat... (Score: 3240.0)
+- Topic 1: ['daten', 'medizinische', 'fr', 'security', 'patientendaten'... (Score: 2697.0)
+- Topic 2: ['digitalen', 'strategien', 'digitale', 'digital', 'marketin... (Score: 2105.0)
+- Topic 3: ['optimierung', 'fr', 'data', 'datenanalyse', 'investment', ... (Score: 664.0)
+- Topic 4: ['integration', 'fr', 'saas', 'for', 'management', 'project'... (Score: 524.0)
 
