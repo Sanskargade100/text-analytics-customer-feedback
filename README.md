@@ -1,7 +1,7 @@
 # EMATM0067: Task 4 - Mining Insights from Customer Feedback
 
 **Team:** 9  
-**Members:** Jiahong Chen;Xiaoran Yang;Tanaphan Kummaraphat;Abrish Aaditya Sivakumar Brindha;Sanskar Gade;
+**Members:** Jiahong Chen; Xiaoran Yang; Tanaphan Kummaraphat; Abrish Aaditya Sivakumar Brindha; Sanskar Gade<br>
 **Course:** MSc Text Analytics (EMATM0067)  
 **Task:** Task 4 - Mining Customer Feedback  
 
