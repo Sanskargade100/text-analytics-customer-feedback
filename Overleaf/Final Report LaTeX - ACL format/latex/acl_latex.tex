@@ -1,0 +1,425 @@
+\documentclass[11pt]{article}
+
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[final]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{xurl}
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{Task 4: Mining Insights from Customer Feedback\\
+\large Team 9}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a separate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+\author{Jiahong Chen \\
+  \texttt{qb25260@bristol.ac.uk} \\\And
+  Xiaoran Yang\\
+  \texttt{eb25170@bristol.ac.uk} \\\And
+  Tanaphan Kummaraphat \\
+  \texttt{lw25314@bristol.ac.uk} \\\AND
+  Abrish Aaditya Sivakumar Brindha \\
+  \texttt{il25355@bristol.ac.uk} \\\And
+  Sanskar Gade \\
+  \texttt{km25788@bristol.ac.uk} \\}
+
+%\author{
+%  \textbf{First Author\textsuperscript{1}},
+%  \textbf{Second Author\textsuperscript{1,2}},
+%  \textbf{Third T. Author\textsuperscript{1}},
+%  \textbf{Fourth Author\textsuperscript{1}},
+%\\
+%  \textbf{Fifth Author\textsuperscript{1,2}},
+%  \textbf{Sixth Author\textsuperscript{1}},
+%  \textbf{Seventh Author\textsuperscript{1}},
+%  \textbf{Eighth Author \textsuperscript{1,2,3,4}},
+%\\
+%  \textbf{Ninth Author\textsuperscript{1}},
+%  \textbf{Tenth Author\textsuperscript{1}},
+%  \textbf{Eleventh E. Author\textsuperscript{1,2,3,4,5}},
+%  \textbf{Twelfth Author\textsuperscript{1}},
+%\\
+%  \textbf{Thirteenth Author\textsuperscript{3}},
+%  \textbf{Fourteenth F. Author\textsuperscript{2,4}},
+%  \textbf{Fifteenth Author\textsuperscript{1}},
+%  \textbf{Sixteenth Author\textsuperscript{1}},
+%\\
+%  \textbf{Seventeenth S. Author\textsuperscript{4,5}},
+%  \textbf{Eighteenth Author\textsuperscript{3,4}},
+%  \textbf{Nineteenth N. Author\textsuperscript{2,5}},
+%  \textbf{Twentieth Author\textsuperscript{1}}
+%\\
+%\\
+%  \textsuperscript{1}Affiliation 1,
+%  \textsuperscript{2}Affiliation 2,
+%  \textsuperscript{3}Affiliation 3,
+%  \textsuperscript{4}Affiliation 4,
+%  \textsuperscript{5}Affiliation 5
+%\\
+%  \small{
+%    \textbf{Correspondence:} \href{mailto:email@domain}{email@domain}
+%  }
+%}
+
+%--------------------------------------
+% The first line of the file must be
+% \begin{quote}
+% \begin{verbatim}
+% \documentclass[11pt]{article}
+% \end{verbatim}
+% \end{quote}
+
+% To load the style file in the review version:
+% \begin{quote}
+% \begin{verbatim}
+% \usepackage[review]{acl}
+% \end{verbatim}
+% \end{quote}
+% For the final version, omit the \verb|review| option:
+% \begin{quote}
+% \begin{verbatim}
+% \usepackage{acl}
+% \end{verbatim}
+% \end{quote}
+
+% To use Times Roman, put the following in the preamble:
+% \begin{quote}
+% \begin{verbatim}
+% \usepackage{times}
+% \end{verbatim}
+% \end{quote}
+% (Alternatives like txfonts or newtx are also acceptable.)
+
+% Please see the \LaTeX{} source of this document for comments on other packages that may be useful.
+
+% Set the title and author using \verb|\title| and \verb|\author|. Within the author list, format multiple authors using \verb|\and| and \verb|\And| and \verb|\AND|; please see the \LaTeX{} source for examples.
+
+% By default, the box containing the title and author names is set to the minimum of 5 cm. If you need more space, include the following in the preamble:
+% \begin{quote}
+% \begin{verbatim}
+% \setlength\titlebox{<dim>}
+% \end{verbatim}
+% \end{quote}
+% where \verb|<dim>| is replaced with a length. Do not set this length smaller than 5 cm.
+%--------------------------------------
+
+\begin{document}
+\maketitle
+\begin{abstract}
+
+This report describes the application of text analytics to discover and rank issues in customer support tickets in multiple languages. We built a pipeline for English and German support tickets that involves data exploration, text pre-processing, text representation, clustering, topic modelling and issue ranking based on ticket priority. We experimented with two axes of experimentation: TF-IDF vs. multilingual sentence embeddings for issue clustering, and LDA vs. BERTopic for topic modelling. We found that embeddings outperformed TF-IDF in clustering, which indicates that semantic embeddings are more appropriate for short and diverse support issues. LDA scored better in topic coherence, particularly in German, but BERTopic generated more interpretable topics as support issues. Finally, issue ranking used topic popularity and ticket priority to transform discovered topics into a ranked list of customer issues. In summary, the results show that automatic metrics are helpful, but the overall goal of the pipeline is to produce meaningful themes that are interpretable and relevant to both customers and support teams.
+
+\end{abstract}
+
+\section{Introduction}
+
+Customer-support tickets can include important details regarding product issues, service issues and common customer requests. But this data is typically presented as short, unstructured text, and it can be hard for organisations to summarise manually. Text-analysis techniques can help convert these tickets into actionable issue categories that can inform decision-making, such as the most common technical issues, billing issues, integration issues or areas for improving documentation and service processes.
+
+Our goal is to process a set of customer support tickets to identify the types of issues customers are having with the product. The solution should not only cluster the tickets, but should also generate meaningful, understandable and actionable issue categories that can be used for improvement. This is difficult due to the nature of support tickets which are often short, noisy and inconsistent. Customers might use different terminology to describe the same issue and some tickets might include product names, account numbers, error messages and requests for help in the same text. The task is also cross-lingual, as we want to compare English and German tickets.
+
+The dataset for the original task consists of 61,765 customer-support tickets. The fields include text fields (subject and body) and meta-data (language, priority, queue and ticket type). During exploratory data analysis, we identified 8,306 duplicates using the combined subject and body. We also detected missing values in the text fields (5,299 missing subjects and 2 missing bodies). We merged the subject and body fields into one text field to minimise loss of information.
+
+In the main experiments, we used English and German tickets. In the German subset we initially had some out-of-domain queue labels, such as games and sports, so we filtered the data to include only queues relevant for IT support, which also occurred in the English subset. This increased the similarity between the English and German data. We then randomly sampled 5,000 English tickets and 5,000 German tickets (using a fixed random seed) to create balanced language subsets for the experiments.
+
+Our pipeline has 5 steps. First, we analysed the data distributions and generated a text field. Second, we performed text preprocessing, such as changing to lowercase, removing punctuation and digits, removing stopwords and lemmatising. Third, we used two text representations for clustering: a sparse lexical representation (TF-IDF) and a dense semantic representation (multilingual sentence embeddings). Fourth, we compared two topic-modelling algorithms: LDA and BERTopic. Finally, we ranked the identified issues by considering the volume of a topic and the priority of the tickets belonging to the topic. This last step is necessary because the most frequent issue may not be the most urgent; a smaller topic with a lot of high-priority tickets may be more interesting than a large low-priority topic.
+
+The aim of this report is not to build the most sophisticated model, but to explore design options and the impact of these on the value of the insights gained. We found that embeddings outperformed TF-IDF in clustering performance, and that LDA outperformed BERTopic in terms of automatic topic coherence. But BERTopic generated topic clusters that were more meaningful with respect to support queues and real customer problems. The ranking of issues then ties these topics to decision-making by ranking topics based on both volume and priority. This is an important lesson for mining customer feedback: while quantitative measures are useful, the output of the system should also be comprehensible, prioritised and actionable for a support team.
+
+\section{Methods}
+
+\subsection{Overall Pipeline}
+
+Our text analytics process aims to build a comparative framework to extract business insights from unstructured support tickets and determine their priorities. It follows a modular workflow that matches the main stages of our implementation. The process starts from the raw ticket data and ends with a ranking of issues that can be used to support practical decision-making.
+
+The process includes five main stages:
+
+1. Data exploration and sampling: We first created a unified text field by merging the subject and body columns. Then, we divided the corpus into English and German subsets according to language. In order to make the experiment manageable and comparable, we used random sampling (\texttt{random\_state=42}) to obtain 5,000 tickets for each language.
+
+2. Linguistic preprocessing: We used spaCy (en\_core\_web\_sm and de\_core\_news\_sm) to apply a shared preprocessing process. This included lowercase conversion, the removal of punctuation marks, digits and stopwords, and lemmatisation. In order to reduce residual noise, we also removed tokens with a length of less than 3 characters. For German texts, we also applied additional language-specific filtering.
+
+3. Axis 1: representation comparison: We studied how text representation affects the quality of clustering. We used TF-IDF (\texttt{max\_features=3000}) as the lexical baseline, and used the multilingual sentence-transformer model \texttt{paraphrase-multilingual-MiniLM-L12-v2} \citep{huggingface_minilm_l12_v2} to generate dense semantic embeddings. Then, we used the K-Means clustering algorithm to compare the two representation methods across a series of $k$ values from 5 to 25, incremented by 2 each time.
+
+4. Axis 2: theme discovery comparison: Next, we compared two theme extraction methods. The first method is Latent Dirichlet Allocation (LDA), which used the Gensim library and combined the Bag-of-Words model with extreme-frequency filtering. The second method is BERTopic, which combined UMAP dimensionality reduction with HDBSCAN-based clustering.
+
+5. Issue ranking: In the final stage, we used a customised Actionability Score to rank the discovered clusters and topics. We mapped the categorical priority label to numerical weights, so that issue volume could be combined with operational severity when ranking customer pain points.
+
+The full implementation, including the preprocessing scripts, clustering experiments, topic-modelling code and generated result files, is available in the project repository: \url{https://github.com/Sanskargade100/text-analytics-customer-feedback}.
+
+\subsection{Data Exploration}
+
+The initial data set is taken from the Tobi-Bueck/customer-support-tickets repository and contains 61,765 customer support records \citep{bueck2025customersupporttickets}. Exploratory analysis shows that, based on the merged "subject" and "body" fields, the data set contains 8,306 duplicate records. In addition, there are missing values in multiple metadata columns. Specifically, 5,299 records lack the "subject" value and 2 records lack the "body" value. In order to reduce information loss, we combine these two fields into one text field for subsequent analysis.
+
+Descriptive statistics show that the corpus is relatively short-text in nature. The average length of the ticket is 463 characters, and the standard deviation is 227. The distribution of priorities is also uneven. Medium-priority tickets are the most common (23,378), followed by high-priority tickets (21,925), while critical and very\_low tickets are much less common. Similar imbalances also occur in ticket types, of which "Incident" and "Request" account for the vast majority.
+
+We also examined the distribution of support queues in the English and German subsets. Preliminary inspection found that the original German corpus contains a large number of out-of-domain queue labels, such as "Games" and "Sports". In order to improve cross-lingual comparability, we screened the German subset and only kept 10 IT support queues that also appear in the English data.
+
+After this screening step, the queue distribution of the two language subsets becomes more comparable. In the final sample data, the most common queues in English and German are Technical Support, Product Support, Customer Service, IT Support, and Billing and Payments. This similarity shows that the final English and German data sets have a fairly good match in cross-lingual comparison.
+
+Finally, we extracted 5,000 English tickets and 5,000 German tickets for the main experiment. This step not only ensures that the computational load of the analysis is manageable, but also ensures a balanced comparison between the two language settings.
+
+\subsection{Preprocessing}
+
+In order to prepare the ticket text for subsequent modelling, we applied the same linguistic preprocessing procedure to the sampled English and German data. We used spaCy \citep{honnibal2020spacy}, en\_core\_web\_sm for English, and de\_core\_news\_sm for German. In order to improve efficiency, preprocessing was carried out through nlp.pipe, and named entity recognition and dependency parsing were disabled, because the subsequent analysis mainly depended on token-level features rather than syntactic structure.
+
+The main cleaning steps for the two languages were the same. Each ticket was converted to lowercase. Punctuation marks, numerical digits, and stopwords were removed. Then, we applied lemmatisation to map words with different surface forms to a shared base form. In order to reduce residual noise, we also removed tokens with a length of less than three characters.
+
+This preprocessing stage was particularly important for sparse lexical models (such as TF-IDF and LDA) used in the subsequent pipeline. For German, we applied additional language-specific filtering to reduce noise and partly address the problem of vocabulary sparsity associated with richer morphology and compounding.
+
+For BERTopic, we further controlled the topic representation through language-specific CountVectorizer settings. English topics used built-in English stopword filtering, while German topics used a stopword list from spacy.lang.de.stop\_words. This helped reduce the influence of high-frequency function words on the extracted topic terms and improve the interpretability of the final themes.
+
+The output of this stage was a cleaned and lemmatised version of the corpus, which was used in the subsequent representation, clustering, and topic-modelling experiments.
+
+\subsection{Axis 1: Text Representation}
+
+The first axis of our experiments examines how varying the text representation influences issue-clustering results. We evaluated two very different representations: a sparse, lexical representation (TF-IDF) and a dense, semantic representation (multilingual sentence embeddings). We expected TF-IDF to be a good and interpretable baseline, because it prioritises words that are relevant for particular tickets and less relevant for the whole data set. But we were interested to see whether embeddings would yield better clusters because customer support tickets may refer to the same issues with different words. We used a Sentence-BERT model which is trained to produce sentence embeddings, and is therefore well-suited to clustering short messages like customer-support tickets where there may be limited word overlap \citep{reimers2019sentence}.
+
+In the TF-IDF condition, the cleaned and lemmatised ticket text was vectorised using unigram and bigram features with a maximum vocabulary size of 3,000. For the embedding condition, we used the multilingual sentence-transformer model \texttt{paraphrase-multilingual-MiniLM-L12-v2} to encode the tickets. We compared the two representations on the English and German samples using K-Means clustering for values of $k$ from 5 to 25, increasing by two at each step. We measured the sum of squared errors (SSE) for each setting to look for the elbow phenomenon, and the silhouette coefficient to assess the quality of the clusters. To ensure that the comparison was not K-Means-specific, we also added hierarchical agglomerative clustering (HAC) at $k=15$ as a robustness check.
+
+
+\subsection{Axis 2: Topic Modeling}
+
+The second axis of our experiments examines two approaches to topic modelling for identifying the major issue themes in the set of support tickets. We employed Latent Dirichlet Allocation (LDA) as the bag-of-words baseline and BERTopic as the embedding-based approach to topic-modelling. LDA models documents as a mixture of topics, and topics as a distribution of words, making it a typical baseline for unsupervised topic discovery \citep{blei2003latent}. BERTopic uses sentence embeddings, dimensionality reduction, density-based clustering and class-based TF-IDF to generate topics and representations of topics \citep{grootendorst2022bertopic}.
+
+We speculated that LDA would work well with lexical topics, when tickets contained recurring words, but that BERTopic would deliver more useful clusters of issues because it could make use of semantic similarity rather than exact word co-occurrence. This is crucial for customer-service tickets, where customers may use different words to report the same issue.
+
+For LDA, we transformed the clean and lemmatised tokens into a Gensim dictionary and bag-of-words corpus \citep{rehurek_lrec}. We filtered out very rare and frequent terms with \texttt{no\_below=5} and \texttt{no\_above=0.5}. We fit English and German LDA models with 15 topics, 10 passes and a random seed of 42. We allocated each ticket to the topic with the highest posterior probability.
+
+For BERTopic, we reduced the multilingual sentence-transformer embeddings with UMAP using cosine distance \citep{mcinnes2018umap}. The embeddings were clustered using HDBSCAN and topic labels were created using class-based TF-IDF \citep{mcinnes2017hdbscan}. We used language-specific stopwords to train BERTopic models for English and German. We used \texttt{nr\_topics=16} to generate 15 topics and the BERTopic outlier topic, \texttt{-1}. It was used for descriptive purposes but not for issue ranking as it contained non-topic tickets.
+
+\subsection{Issue Ranking}
+
+Once the topics were discovered, we ordered the extracted issues according to both the size of the topic and priority of tickets. We did this because the biggest topic does not necessarily represent the most important issue for the business. An issue with fewer tickets of high priority may need to be addressed quicker than a larger topic with mostly low priority tickets.
+
+For each topic, we counted the number of tickets that were assigned to the topic, and multiplied this by the average priority of the tickets. In the final sample, the categorical priorities were mapped to numerical weights to reflect operational urgency: \texttt{very\_low}=0.5, \texttt{low}=1.0, \texttt{medium}=2.0, \texttt{high}=3.0, and \texttt{critical}=4.0. To ensure computational robustness, any missing or unmapped values were assigned a baseline weight of 1.0. 
+The actionability score was given by:
+
+\begin{equation}
+\text{Actionability Score}_{t} = \text{Volume}_{t} \times \overline{\text{Priority Severity}}_{t}
+\end{equation}
+
+Here, $\text{Volume}_{t}$ is the volume of tickets in topic $t$ and $\overline{\text{Priority Severity}}_{t}$ is the average priority score of tickets in topic $t$. This was able to transform the output of the topic modelling exercise into a list of customer issues ranked by priority. This ranking was used to determine which customer pain points should be addressed in order to improve the service.
+
+\section{Experimental Evaluation}
+
+\subsection{Evaluation goals}
+
+Our aim was to evaluate what modelling decisions worked best for extracting issue categories from the customer-support tickets. This is an unsupervised task and so there were no labels to serve as a basis for accuracy. So we measured the approaches' performance using quantitative measures and interpretability.
+
+For Axis 1, we wanted to test whether TF-IDF or multilingual sentence embeddings were better to cluster customer issues. We wanted to see if we could get better results using semantic features than sparse lexical features on short and variable support-ticket text.
+
+For Axis 2, we compared the performance of LDA and BERTopic for topic extraction. We wanted to test whether topic coherence, interpretability and usefulness for discovering support issues were better with topics extracted via this approach. Finally, we tested issue ranking by examining if the volume of each topic and priority of support tickets could be used to better prioritise customer issues.
+
+\subsection{Metrics}
+
+We experimented with different clustering and topic-modelling approaches, and used a combination of quantitative and interpretability checks for evaluation. For Axis 1, we measured the quality of clustering using silhouette score. The silhouette score is used to compare the distance between a ticket and other tickets in the same cluster with the distance to tickets in other clusters. The higher the score, the better the clusters. We also examined the K-Means sum of squared errors (SSE) for varying values of $k$ to see if there was an elbow point.
+
+For Axis 2, we compared the $C_v$ topic coherence of LDA and BERTopic. Topic coherence is used to assess the semantic meaningfulness of the top words of a topic, which is helpful for unsupervised topic modelling in the absence of gold standard labels \citep{roder2015exploring}. But coherence was not used as the sole quality measure. Given that the task was to mine customer feedback resulting in customer service improvements, we also checked if the topics were interpretable, mapped to chat queues and could be used to suggest possible improvements in customer service.
+
+\subsection{Experimental Setup}
+
+We ran experiments independently on the English and German ticket samples to be able to compare the two language settings under identical pipelines. For the main experiments, we used 5,000 English tickets and 5,000 German tickets after queue filtering and pre-processing. The problem is not a supervised prediction problem but unsupervised issue discovery, so we did not split the data into training and test sets. We used the entire set of tickets for clustering, topic modelling and interpretability analysis.
+
+For Axis 1, we experimented with TF-IDF and embedding representations with English and German samples. The TF-IDF representation was based on unigram and bigram features, with a vocabulary size of 3,000. The embedding representation used the multilingual sentence-transformer model \texttt{paraphrase-multilingual-MiniLM-L12-v2}. We tested K-Means with $k$ in the range 5--25, in steps of 2, and fixed random seed for reproducibility. We also experimented with hierarchical agglomerative clustering at $k=15$ to check results.
+
+We treat K-means as a main with HAC as a supplementary. K-means is an unsupervised learning which uses Euclidean distance to determine which cluster each data belongs to, and the number of clusters must be defined before running. Each centroid is randomly located, and each data is assign to the nearest centroid according to the Euclidean distance, creating K vectors containing the data in that cluster. The centroids are then recalculated to be the center of each cluster. This process continues until the centroids stop changing or until it reaches the number of attempt set. On the other hand, HAC (Hierarchical Agglomerative Clustering) starts by merging the two closest points into a cluster, then that cluster is treated as a new data point. The method used to find which clusters should be merged is Ward linkage.
+
+For Axis 2, we explored LDA and BERTopic for English and German, separately. We used 15 topics, 10 passes and \texttt{random\_state=42} for LDA. The dictionary was pruned using \texttt{no\_below=5} and \texttt{no\_above=0.5} to exclude very rare and very common words. BERTopic was set up with \texttt{nr\_topics=16}, which resulted in 15 main topics and the outlier topic \texttt{-1}. 
+
+BERTopic is a pipeline consisting of SBERT \cite{reimers2019sentence}, in which we reuse the multilingual sentence embeddings from the Axis 1, followed by UMAP(Dimensionality Reduction), HDBSCAN(Clustering), CountVectorizer, and c-TF-IDF. The outlier topic was merged into topic distributions, but was not considered an issue category for ranking. SBERT transforms sentences into dense vector representations and supports multiple languages. UMAP (Uniform Manifold Approximation and Projection for Dimension Reduction) is a non-linear Dimensional Reduction method while HDBSCAN is a clustering algorithm applied on the output from UMAP. The top words in each cluster are then found using c-TF-IDF (Class-based Term Frequency Inverse Document Frequency), which works in a similar way as TF-IDF. LDA or Latent Dirichlet Allocation is a probabilistic model that finds the hidden topics. The core idea of LDA is that the documents are the mixture of topics while topics are the mixture of words, with the aim to compute the topic proportion in each document \cite{LDA_geeksforgeeks}. It utilises bag-of-words representations, which means it doesn’t capture any semantic meaning like BERTopic
+
+
+
+
+
+\subsection{Results for Axis 1: TF-IDF vs Embeddings}
+To evaluate the performance of both approaches, we cluster them using K-mean at k = 15 as configured in the early stage, then find the SSE and Silhouette score to compare the performance. TF-IDF is treated as a baseline, in which it obtained the average Silhouette score of both languages at about 0.023. On the other hand, Embeddings achieved an average score of about 0.092, meaning it performs better than our initial approach. The result makes sense since embedding can capture semantic meaning while TF-IDF only reflects the frequency and importance or rarity of the words. To support this finding, we investigate further by using another clustering method, HAC, and calculated the Silhouette score. As a result, the average scores of TF-IDF in both languages and Embedding are about 0.017 and 0.074, respectively. This highlights the difference of performance between both approaches, with Embedding being the superior one. However, it is obvious that both Embedding and TF-IDF tend to have inferior performance for German. This is probably because of the complexity of the German language.
+ 
+Considering the consistency and robustness, Embedding obviously achieve higher Silhouette Scores and is less fluctuated across K values. Although the “dog’s leg” is not clear for both approaches, Embedding’s line seems to be more curved while TF-IDF’s line is more linear. This finding aligns with our hypothesis.
+For interpretability, we focus mainly on the English language and top 5 biggest cluster sizes. Top 10 words are found using c-TF-IDF. Although it is not clear which approach is outstanding, we found embedding easier to interpret and name a possible cluster group than TF-IDF.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth]{stability_en_emb.png}
+    
+    \vspace{0.2cm}
+    
+    \includegraphics[width=\columnwidth]{stability_en_tfidf.png}
+    
+    \caption{Clustering stability analysis is carried out on English embeddings (top) and TF-IDF (bottom) in the range of $k \in [5, 25]$. The inertia curve of embeddings is more curved than the nearly linear descent of TF-IDF.}
+    \label{fig:stability}
+\end{figure}
+
+\subsection{Results for Axis 2: LDA vs BERTopic}
+
+Table~\ref{tab:axis2_coherence} compares the topic coherence scores for LDA and BERTopic on the English and German ticket samples. LDA achieved a coherence score of 0.645 for English and 0.721 for German, while BERTopic achieved 0.632 for English and 0.482 for German. Based only on automatic coherence, LDA performed better, especially for the German subset.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lcc}
+\hline
+Model & English $C_v$ & German $C_v$ \\
+\hline
+LDA & 0.645 & 0.721 \\
+BERTopic & 0.632 & 0.482 \\
+\hline
+\end{tabular}
+\caption{Topic coherence comparison for LDA and BERTopic on the sampled English and German support tickets.}
+\label{tab:axis2_coherence}
+\end{table}
+
+While LDA resulted in higher coherence scores, we observed that BERTopic was more helpful in practice. LDA topics tended to be lexically coherent, but some of the topics grouped words that were statistically correlated, but did not specifically describe a customer-service issue. But BERTopic topics were more practical to link to support problems, support queues and representative tickets in this data set. This is significant because the goal of the task is not just to group words together, but to elicit customer feedback.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/bertopic_topic_sizes.png}
+\caption{BERTopic topic-size distribution for the English and German samples. The distributions show a small number of large issue families and several smaller long-tail topics.}
+\label{fig:bertopic_topic_sizes}
+\end{figure}
+
+The topic-size distribution of BERTopic (Figure~\ref{fig:bertopic_topic_sizes}) reveals that the ticket data is very skewed. There are a handful of major topics that cover many tickets, and numerous smaller topics that cover specific issues. This is beneficial for business analysis as it divides the recurring issue families from long-tail issues that may need to be addressed.
+
+For English, the dominant BERTopic themes include issues around medical data security, investment data analytics, digital marketing, SaaS performance, project-management integration, synchronisation and billing/payment. For German, BERTopic also discovered similar high-level issue topics, including technical/software issues, medical data security, digital marketing, investment/data optimisation, SaaS integration and billing/invoice problems. But the German BERTopic topics had more noise, which explains the lower coherence for German.
+
+We also looked at the topic-queue distributions to see if the identified topics reflected the support queues' structure. BERTopic topics appeared sensible in association with support queues: billing/payments issues were connected with Billing and Payments, technical issues were more prominent in Technical Support and Product Support queues. This indicates that the BERTopic topics were not just random groupings, but rather reflected a set of useful support categories which can be leveraged to interpret customer issues.
+
+\subsection{Analysis}
+
+Our findings demonstrate that the representation and topic-modelling algorithm can affect both the quantitative results and the practical usefulness of the outputs. For Axis 1, embedding representations performed better than TF-IDF representations for clustering. This confirms that semantic representations are more appropriate for customer-support tickets, where customers might use different words to describe the same problem. However, the overall silhouette scores were low, which suggests that the data does not separate into clear natural clusters. This is not surprising, as support tickets are brief, noisy and may contain a mixture of product names, problems, requests and operational information.
+
+
+
+In Axis 2, LDA resulted in higher topic coherence than BERTopic, especially for German. This is likely because LDA was good at finding words that co-occurred in the tickets after preprocessing. However, coherence did not fully reflect the usefulness of the topics for the business purpose. The LDA topics were harder to map onto specific customer-service issues, while the BERTopic topics were easier to link with representative tickets and queues. This suggests that a model with a higher coherence score is not necessarily the most useful model for extracting customer feedback.
+
+Our results for German were generally weaker than for English. This was reflected in the lower BERTopic coherence score and the less coherent clusters. This may be due to the presence of more language noise, multilingual vocabulary and lexical variations in the preprocessed German subset. This language noise was also clearly visible in the LDA output of the German subset. For example, a German LDA topic contained English function words and English support vocabulary, which suggests that some English tickets in the original dataset may have been incorrectly marked as German. Due to the morphology and compounding of German, sparse lexical representations may be more difficult to interpret. This helps to explain why TF-IDF and LDA required careful preprocessing and why embeddings were more effective as a stronger semantic representation.
+
+Lastly, the topics were skewed. There were a few large topics that represented families of recurring issues, and many smaller topics that represented long-tail issues. This is useful for customer support analysis because it allows us to distinguish between frequent recurring issues and more specific problems that might still be important. However, it also means that topic size should not be the sole measure of importance. This is why we rank issues by considering both topic size and ticket priority, to produce the most relevant customer issues.
+
+\subsection{Discussion}
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.8\linewidth]{heatmap_topic_queue_en.png}
+    
+    \caption{The normalised cross-tabulation heatmap of BERTopic English topics and operational support queues. Different colour clusters in the figure (for example, Topic 6 corresponds to the `Billing and Payments' queue) intuitively support the semantic correspondence between unsupervised topics and human-defined departments.}
+    \label{fig:heatmap_en}
+\end{figure*}
+ 
+\paragraph{Axis 1: consistency and robustness across methods and $k$ values.}
+Across two clustering algorithms, two languages and the tested $k$ values (5--25), the embedding representations performed better than TF-IDF. Under K-Means at $k{=}15$, the average silhouette score of embedding representations across English and German was higher than that of TF-IDF (0.092 vs.\ 0.023). Under HAC at $k{=}15$, the advantage of embedding representations still existed (0.074 vs.\ 0.017), which confirms that the result is not an artefact of the K-Means objective. The embedding silhouette curve across different $k$ values shows a stronger cluster structure than TF-IDF, although the absolute silhouette scores of both methods were still relatively low. Both representation methods had lower scores for German, which may be related to the vocabulary sparsity caused by German morphology, compounding and residual language noise.
+ 
+\paragraph{Axis 1: interpretability of cluster categories.}
+TF-IDF term analysis confirms that embedding clusters are more interpretable as actionable issue categories. Embedding clusters resolved into semantically focused groupings whose top terms directly describe a customer problem, for example, \textit{invoice, payment, billing, charge, subscription} or \textit{security, data, breach, hospital, medical}. TF-IDF clusters were dominated by generic support vocabulary (\textit{account, access, user, system, issue}) that spans multiple issue types without forming a nameable category. This interpretability gap reinforces the quantitative silhouette advantage.
+ 
+\paragraph{Axis 2: coherence consistency and interpretability.}
+LDA achieved higher and more consistent cross-lingual coherence: the absolute English-German coherence gap was 0.076 for LDA and 0.150 for BERTopic. This suggests that LDA was more stable in automatic coherence, while BERTopic was more affected by noise and lexical variation in the German subset. Despite this coherence advantage, BERTopic produced more interpretable topics. The topic queue cross-tabulations confirmed that BERTopic billing clusters co-occurred predominantly with the Billing and Payments queue, and technical clusters with Technical Support, while LDA topic-queue distributions were more diffuse. This gap between automatic coherence and practical interpretability is consistent with findings by \citet{roder2015exploring}, who caution that no single coherence measure uniformly tracks topic quality.
+ 
+\paragraph{Actionable insights and issue ranking.}
+Tables~\ref{tab:ranking_en} and~\ref{tab:ranking_de} show the top-ranked issues produced by the final ranking stage of BERTopic. The Actionability Score combines the topic volume and the average priority severity of the tickets in each topic. Therefore, the highest-ranked issues reflect both frequency and operational urgency.
+ 
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{3.6cm}ccc}
+\toprule
+\textbf{Issue category} & \textbf{Vol.} & \textbf{Avg pri.} & \textbf{Score} \\
+\midrule
+Medical data security      & 1140 & 2.16 & 2459 \\
+Investment data analytics  & 765  & 2.14 & 1637 \\
+Digital marketing strategy & 630  & 2.10 & 1320 \\
+SaaS platform performance  & 316  & 2.41 & 762  \\
+SaaS project integration   & 325  & 2.10 & 681  \\
+\bottomrule
+\end{tabular}
+\caption{Top-5 ranked English issues by actionability score (BERTopic). Key terms: Topic 0-\textit{medical, security, data, access, breach}; Topic 1-\textit{investment, analytics, data, tools, optimization}; Topic 2-\textit{digital, brand, marketing, strategies, growth}; Topic 4-\textit{saas, server, issue, project, platform}; Topic 3-\textit{management, project, integration, saas, features}.}
+\label{tab:ranking_en}
+\end{table}
+ 
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{3.6cm}ccc}
+\toprule
+\textbf{Issue category} & \textbf{Vol.} & \textbf{Avg pri.} & \textbf{Score} \\
+\midrule
+General data processing issues & 1443 & 2.25 & 3240 \\
+Medical data security          & 1230 & 2.19 & 2697 \\
+Digital marketing strategy     & 974  & 2.16 & 2105 \\
+Investment data analytics      & 314  & 2.11 & 664  \\
+SaaS project integration       & 263  & 1.99 & 524  \\
+\bottomrule
+\end{tabular}
+\caption{Top-5 ranked German issues by actionability score (BERTopic). Key terms: Topic 0---\textit{data, processing, problem, issues}; Topic 1---\textit{daten, medizinische, security, patientendaten, sicherheit}; Topic 2---\textit{digitalen, strategien, digital, marketing}; Topic 3---\textit{optimierung, datenanalyse, investment, investitionen}; Topic 4---\textit{integration, saas, management, project}.}
+\label{tab:ranking_de}
+\end{table}
+ 
+The rankings reveal three findings. First of all, the highest-ranked issues are no longer determined by volume alone, because the Actionability Score also takes into account the average priority severity. For example, in the English results, SaaS platform performance ranks above SaaS project integration. Although the number of tickets is slightly smaller, the average priority is higher. Secondly, several themes appear in both the English and German rankings, including medical data security, investment data analytics, digital marketing and SaaS project integration. This suggests that the pipeline captured recurring cross-lingual issue families. Third, the German top-ranked topic contains more English-German mixed vocabulary, which is consistent with the earlier observation that the German subset contains more language noise.
+ 
+Across both axes, the results illustrate a consistent tension: methods with stronger automatic metrics do not necessarily produce more useful outputs, and evaluation of customer-feedback mining pipelines must combine quantitative metrics with qualitative assessment of interpretability against operational support structures.
+ 
+\section{Conclusion}
+ 
+This paper presented a comparative pipeline for mining actionable issue categories from multilingual customer-support tickets, evaluating two axes of design choices-text representation and topic modelling and combining results with an actionability-weighted issue ranking.
+ 
+On Axis 1, multilingual sentence embeddings consistently outperformed TF-IDF representations across all tested cluster counts ($k=5$ to $25$), both clustering algorithms (K-Means and HAC), and both language subsets, with substantially higher silhouette scores than TF-IDF. Embedding clusters were also more interpretable: c-TF-IDF term analysis showed that embedding clusters resolved into focused, nameable issue categories while TF-IDF clusters grouped generic co-occurring support terms without forming actionable categories.
+ 
+On Axis 2, LDA achieved higher and more consistent cross-lingual topic coherence, but BERTopic produced topics that were more interpretable and more strongly aligned with operational support queues. This demonstrates that automatic coherence metrics are insufficient as the sole quality criterion for applied topic modelling, and that evaluation must include qualitative validation against known domain structure.
+ 
+Based on the final pipeline output, the issue-ranking stage identified that medical data security, investment data analytics and digital marketing are the important high-ranked themes in English and German results. The German ranking also included a larger mixed data-processing topic, which reflected the language noise that still exists in the German subset. Overall, the ranking stage helped to link the discovered topics to the issue frequency and operational urgency.
+ 
+The overall lesson from this work is that effective mining of customer feedback requires both quantitative rigour and qualitative evaluation of output interpretability. Future work should address the degraded performance on German through language-specific preprocessing for morphology and compounding, and extend the pipeline to additional languages and non-IT support domains.
+ 
+\section*{Limitations}
+ 
+The pipeline was evaluated based on a single dataset from a single product domain (IT support), so the results of the study may not be fully generalised to other customer-support settings. The German results have always been weaker than English, partly due to morphology, compounding and residual mixed-language noise. In addition, the analysis relied on unsupervised methods, so the quality of the topic must be evaluated through coherence scores and manual interpretability checks, rather than using the gold-standard labels. We also found the reproducibility issue between operation systems, where Windows and MacOS return a slightly different result even though the result is consistent in the same computer. We have tried every possible solution we know, though the result is still slightly different. Therefore, we adhere to the result from only one operation system to ensure our explanations are in the same direction.
+
+\bibliography{custom}
+
+\end{document}
